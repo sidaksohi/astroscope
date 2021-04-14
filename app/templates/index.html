@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <div id="main-container">
+    <div id="section-id-2-" data-element-type="section">
+      <div id="container-id-3-" data-element-type="container">
+        <img id="astroscope_banner" src="static/astroscope_banner.png" style="border-radius: 25px;">
+        <form action="{{ url_for("results")}}" method="post" data-element-type="container">
+        <div id="container-id-9-" data-element-type="container">
+          <p id="text-id-8-" class="titleText" data-element-type="text">Welcome to Astroscope.</p>
+          <p id="text-id-10-" data-element-type="text">Enter a Reddit username, and we will predict their Myers-Briggs personality type.</p>
+
+          <input name="username" id="input-id-5-" required="required" data-element-type="input" placeholder="Reddit Username" pattern="^\S+$">
+
+          <button id="button-id-11-" type="submit">Find Personality</button>
+          <p class="results_container_col" style="padding: 0; color: gray;">Results page may take up to two minutes to load!</p>
+        </div>
+        </form>
+      </div>
+    </div>
+
+    <div style="height: 75px; background-color: rgb(245, 240, 255);"></div>
+  </div>
+  
+  
+  <script src="static/script.js"></script>
+{% endblock %}
