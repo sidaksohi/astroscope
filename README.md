@@ -1,6 +1,9 @@
 # [Astroscope is LIVE!](http://astrosco.pe)
 #### Astroscope uses your Reddit username to predict your Myers-Briggs personality type. Using your Reddit comments, we use machine learning to individually predict each trait (_Introverted or Extroverted, Sensing or Intuition, etc..._). The model is around 75% accurate for each individual trait. 
- 
+
+# Celebrity Scraper
+The Google Colab notebook used for scraping the celebrity data can be found ![here](https://colab.research.google.com/drive/1FUCQgghwkz8-myymJyQv1XwmBxQw9MHR?usp=sharing).
+
 # Landing Page
 ### Desktop
 ![Desktop](https://i.imgur.com/Nguf48a.png)
